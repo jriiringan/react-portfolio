@@ -188,15 +188,6 @@ color: var(--bs-gray-dark) !important;
     color: white !important;
 }
 
-.my-profile {
-    /* background-color: #fff;
-    border-top-left-radius: 15em;
-    border-top-right-radius: 15em; */
-    /* border-radius: 180px;
-    height: 180px;
-    width: 180px; */
-    /* overflow: hidden; */
-}
 
 .my-profile {
     justify-content: center !important;
