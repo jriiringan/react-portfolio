@@ -13,7 +13,7 @@ export default function AboutCard(props) {
             <br />I am a mid
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, some other activities that I love to do
           </p>
           <ul>
             <li className="about-activity">
@@ -27,10 +27,10 @@ export default function AboutCard(props) {
             </li>
           </ul>
 
-          <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
+          <p style={{ marginBlockEnd: 0, color: "#d88c0e", marginBottom: 5 }}>
             "Pera Money Kwarta sa Utak Puso't Bulsa"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Joms</footer>
         </blockquote>
       </Card.Body>
     </Card>

@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Navbar, Nav } from "react-bootstrap";
 import TypeInformation from "../components/TypeInformation";
+import AboutCard from "./aboutcard";
+import TechStack from "./techstack";
 
 
 const CODING_GUY = require('../assets/440-ai.svg').default;
@@ -24,11 +26,11 @@ export default function About(props){
                 <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
                   Know Who <strong className="white">I'M</strong>
                 </h1>
-                {/* <Aboutcard /> */}
+                <AboutCard />
               </Col>
               <Col
                 md={5}
-                style={{ paddingTop: "120px", paddingBottom: "50px" }}
+                style={{ paddingTop: "17px", paddingBottom: "50px" }}
                 className="about-img"
               >
                 <img src={CODING_GUY} alt="about" className="img-fluid" />
@@ -38,7 +40,7 @@ export default function About(props){
               Professional <strong className="white">Skillset </strong>
             </h1>
 
-            {/* <Techstack /> */}
+            <TechStack />
 
             <h1 className="project-heading">
               <strong className="white">Tools</strong> I use
