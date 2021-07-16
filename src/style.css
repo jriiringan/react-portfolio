@@ -1,0 +1,274 @@
+
+html {
+    --section-background-color: linear-gradient(
+      to bottom left,
+      rgba(17, 16, 16, 0.582),
+      rgba(12, 8, 24, 0.904)
+    );
+  
+    --image-gradient: linear-gradient(
+      to bottom left,
+      rgba(17, 16, 16, 0.678),
+      rgba(12, 10, 22, 0.863)
+    );
+  
+    --imp-text-color: #c770f0;
+  }
+
+
+body{
+    color: #fff;
+}
+
+.heading {
+    font-size: 2.4em !important;
+    padding-left: 50px !important;
+}
+
+.heading-name {
+    font-size: 2.5em !important;
+    padding-left: 45px !important;
+}
+
+
+.main-name{
+    color: #d88c0e;
+}
+
+.white {
+    color: #d88c0e;
+    font-weight: bold;
+}
+
+.sticky {
+    background-color: #212038d8 !important;
+    transition: all 0.3s ease-out 0s !important;
+    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+    backdrop-filter: blur(15px) !important;
+  }
+
+.home-section {
+    position: relative;
+    z-index: -1;
+    background-image: var(--image-gradient), url(./assets/mock-home.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+}
+
+.home-content {
+    padding: 9rem 0 2rem !important;
+    color: whitesmoke;
+    text-align: left;
+}
+  
+.navbar {
+    position: fixed !important;
+    transition: all 0.3s ease-out 0s !important;
+    padding: 0.3rem 2rem !important;
+    font-size: 1.3rem !important;
+}
+
+.navbar-brand {
+    font-size: 1.6em;
+    color: #d88c0e !important;
+    font-weight: bolder;
+}
+
+.home-info-section {
+position: relative;
+padding-bottom: 70px !important;
+padding-top: 70px !important;
+}
+
+.home-info-description {
+color: white !important;
+padding-top: 100px !important;
+padding-bottom: 20px !important;
+text-align: center;
+}
+
+.home-info-body {
+padding-top: 50px;
+font-size: 1.2em !important;
+text-align: left;
+}
+
+.home-info-social {
+text-align: center !important;
+padding-top: 25px;
+color: #d88c0e !important;
+}
+
+.home-info-social-links {
+justify-content: center !important;
+padding-top: 15px !important;
+display: inline-block !important;
+position: relative !important;
+padding-inline-start: 0 !important;
+}
+
+.home-social-icons {
+position: relative !important;
+display: inline-block !important;
+width: 40px !important;
+height: 40px !important;
+text-align: center !important;
+font-size: 1.2em !important;
+line-height: 2em !important;
+background: rgba(255, 255, 255, 0.972) !important;
+border-radius: 50% !important;
+transition: 0.5s !important;
+}
+
+.home-social-icons::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+background: #d88c0e;
+transition: 0.5s;
+transform: scale(0.9);
+z-index: -1;
+}
+
+.home-social-icons:hover::before {
+transform: scale(1.1);
+box-shadow: 0 0 15px #d88c0e;
+}
+
+.home-social-icons:hover {
+color: #d88c0e;
+box-shadow: 0 0 5px #d88c0e;
+text-shadow: 0 0 2px #d88c0e;
+}
+
+.social-icons {
+display: inline-block !important;
+padding-right: 15px;
+padding-left: 15px;
+}
+
+.icon-colour {
+color: var(--bs-gray-dark) !important;
+}
+
+.about-section {
+    position: relative !important;
+    padding-top: 150px !important;
+    padding-bottom: 30px !important;
+    background-image: var(--section-background-color) !important;
+    color: white !important;
+}
+
+.my-profile {
+    /* background-color: #fff;
+    border-top-left-radius: 15em;
+    border-top-right-radius: 15em; */
+    /* border-radius: 180px;
+    height: 180px;
+    width: 180px; */
+    /* overflow: hidden; */
+}
+
+.my-profile {
+    justify-content: center !important;
+    padding-top: 6em !important;
+    max-width: 300px;
+}
+  
+  @media (max-width: 767px) {
+    .my-profile {
+      padding-top: 2em !important;
+      padding-bottom: 2em !important;
+    }
+  }
+
+@keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    } /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    } /* Reset for the last half to pause */
+    100% {
+      transform: rotate(0deg);
+    }
+}
+.footer {
+    background-color: #212038d8;
+    bottom: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 8px !important ;
+}
+.footer-copywright {
+text-align: center !important;
+}
+
+.footer-body {
+text-align: center !important;
+}
+
+@media (max-width: 767px) {
+.footer-copywright {
+    text-align: center !important;
+}
+
+.footer-body {
+    text-align: center !important;
+}
+}
+
+.footer h3 {
+font-size: 1em;
+color: white !important;
+margin-top: 0.5em !important;
+margin-bottom: 0.5em !important;
+}
+.footer-icons {
+margin-top: 0.5em !important;
+margin-bottom: 0.5em !important;
+padding: 0 !important;
+}
+
+
+@media (max-width: 767px) {
+    .tech-icons {
+        margin: 10px !important;
+    }
+}
+  
+.tech-icons:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    /* border: 2.2px solid rgba(197, 115, 230, 0.883) !important; */
+}
+.tech-icon-images {
+    padding: 20px !important;
+    line-height: 1.6 !important;
+}
+  
+.quote-card-view {
+    border: none !important;
+    color: white !important;
+    background-color: transparent !important;
+}
