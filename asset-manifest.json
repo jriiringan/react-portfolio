@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.b12f5230.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.2203eaa5.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.2203eaa5.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.390d76c4.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.3078bee3.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.3078bee3.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.268f7045.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.268f7045.js.map",
     "static/css/2.4be38407.chunk.css": "/react-portfolio/static/css/2.4be38407.chunk.css",
-    "static/js/2.e1bc1f43.chunk.js": "/react-portfolio/static/js/2.e1bc1f43.chunk.js",
-    "static/js/2.e1bc1f43.chunk.js.map": "/react-portfolio/static/js/2.e1bc1f43.chunk.js.map",
+    "static/js/2.214eacc1.chunk.js": "/react-portfolio/static/js/2.214eacc1.chunk.js",
+    "static/js/2.214eacc1.chunk.js.map": "/react-portfolio/static/js/2.214eacc1.chunk.js.map",
     "static/js/3.0ee1fb7f.chunk.js": "/react-portfolio/static/js/3.0ee1fb7f.chunk.js",
     "static/js/3.0ee1fb7f.chunk.js.map": "/react-portfolio/static/js/3.0ee1fb7f.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.4be38407.chunk.css.map": "/react-portfolio/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.b12f5230.chunk.css.map": "/react-portfolio/static/css/main.b12f5230.chunk.css.map",
-    "static/js/2.e1bc1f43.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.e1bc1f43.chunk.js.LICENSE.txt",
+    "static/css/main.390d76c4.chunk.css.map": "/react-portfolio/static/css/main.390d76c4.chunk.css.map",
+    "static/js/2.214eacc1.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.214eacc1.chunk.js.LICENSE.txt",
     "static/media/440-ai.svg": "/react-portfolio/static/media/440-ai.6e85e1bf.svg",
     "static/media/coding.svg": "/react-portfolio/static/media/coding.4da90ce0.svg",
     "static/media/style.css": "/react-portfolio/static/media/mock-home.d60e18ee.jpg",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.268f7045.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.e1bc1f43.chunk.js",
-    "static/css/main.b12f5230.chunk.css",
-    "static/js/main.2203eaa5.chunk.js"
+    "static/js/2.214eacc1.chunk.js",
+    "static/css/main.390d76c4.chunk.css",
+    "static/js/main.3078bee3.chunk.js"
   ]
 }
