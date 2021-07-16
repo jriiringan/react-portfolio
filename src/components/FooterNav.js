@@ -14,7 +14,7 @@ export default function FooterNav(props){
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Jomari Iringan</h3>
+          <h3>Developed by Jomari Iringan</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} jomsthegreat</h3>
