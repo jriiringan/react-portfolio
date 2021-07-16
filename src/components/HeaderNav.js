@@ -25,13 +25,15 @@ export default function(props){
             bg="dark" 
             variant="dark">
             <Container>
-                <Navbar.Brand href="/">@jomsthegreat</Navbar.Brand>
+                <Navbar.Brand as={Link}
+                        to="/about">@jomsthegreat</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto" />
                     <Nav>
                     <Nav.Link 
-                        href="/">Home</Nav.Link>
+                        as={Link}
+                        to="/">Home</Nav.Link>
                     <Nav.Link 
                         href="#career">Career</Nav.Link>
                     <Nav.Link 
