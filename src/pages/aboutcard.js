@@ -10,7 +10,7 @@ export default function AboutCard(props) {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="white">Jomari Iringan </span>
             from <span className="white"> Cavite, Philippines.</span>
-            <br />I am a mid
+            <br />I am a mid-level Mobile App Developer
             <br />
             <br />
             Apart from coding, some other activities that I love to do
