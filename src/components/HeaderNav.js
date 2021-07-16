@@ -30,12 +30,13 @@ export default function(props){
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto" />
-                    <Nav>
+                    <Nav defaultActiveKey="/#">
                     <Nav.Link 
                         as={Link}
                         to="/#">Home</Nav.Link>
                     <Nav.Link 
-                        href="#career">Career</Nav.Link>
+                        as={Link}
+                        to="/career">Career</Nav.Link>
                     <Nav.Link 
                         as={Link}
                         to="/about">About</Nav.Link>
