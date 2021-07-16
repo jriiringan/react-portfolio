@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 import Home from './pages/home';
 import HeaderNav from './components/HeaderNav';
