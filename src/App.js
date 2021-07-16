@@ -10,6 +10,7 @@ import HeaderNav from './components/HeaderNav';
 import About from './pages/about';
 import FooterNav from './components/FooterNav';
 import PreLoaded from './components/PreLoaded';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <PreLoaded load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <HeaderNav />
+        <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" exact component={About} />

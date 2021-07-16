@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Navbar, Nav } from "react-bootstrap";
+import ToolStack from "../components/ToolStack";
 import TypeInformation from "../components/TypeInformation";
 import AboutCard from "./aboutcard";
-import TechStack from "./techstack";
+import TechStack from "../components/TechStack";
 
 
 const CODING_GUY = require('../assets/440-ai.svg').default;
@@ -45,7 +46,7 @@ export default function About(props){
             <h1 className="project-heading">
               <strong className="white">Tools</strong> I use
             </h1>
-            {/* <Toolstack /> */}
+            <ToolStack />
 
             {/* <Github /> */}
           </Container>
