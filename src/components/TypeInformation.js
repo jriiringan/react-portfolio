@@ -5,7 +5,7 @@ export default function(){
     return (
         <Typewriter
           options={{
-            strings: ['Mobile App Developer', 'Backend Developer', 'PHP Developer', 'Server Management'],
+            strings: ['Mobile App Developer', 'React Native Developer','Backend Developer', 'PHP Developer', 'Web Server Management'],
             autoStart: true,
             loop: true,
           }}
